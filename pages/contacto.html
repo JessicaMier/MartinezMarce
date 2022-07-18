@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilo.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <div>
+            <img src="../media/imagenes/logoAvion.png" alt="logo">
+        </div>
+        <ul>
+            <li><a href="../index.html">home</a></li>
+            <li><a href="./vuelos.html">vuelos</a></li>
+            <li><a href="./hoteles.html">hoteles</a></li>
+            <li><a href="./galeria.html">galeria</a></li>
+            <li><a href="./contacto.html">contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>contacto</h1>
+        <div class="formulario">
+            <form action="enviar.php">
+                <label for="">nombre</label>
+                <input type="text" placeholder="escribe tu nombre" name="" id=""><br>
+                <label for="">apellido</label>
+                <input type="text" placeholder="escribe tu apellido" id=""><br>
+                <label for="">telefono</label>
+                <input type="number" placeholder="escribe tu telefono" id=""><br>
+                <label for="">e-mail</label>
+                <input type="email" placeholder="escribre tu mail" id=""><br>
+                <h4>ubicación</h4>
+                <select name="ubicacion" id="">
+                    <option value="">seleccionar</option>
+                    <option value="">capital federal</option>
+                    <option value="">zona oeste</option>
+                    <option value="">zona este</option>
+                    <option value="">zona sur</option>
+                    <option value="">otros</option>
+                </select><br>
+                <br>
+                <textarea name="cometarios" id="comentarios" cols="30" rows="10"></textarea><br>
+
+                <input type="checkbox" name="terminos y condiciones" id="terminos y condiciones">
+                <label for="">Acepta términos y condiciones</label><br>
+                <br>
+                <input type="reset" value="borrar">
+                <input type="submit" value="enviar">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>seguinos en nuestra redes sociales</p>
+        <a href="https://wa.me/5491139359856"><img src="../media/imagenes/whatsapp.png" alt=""></a>
+        <a href="https://facebook.com"><img src="../media/imagenes/facebook.png" alt=""></a>
+        <a href="https://instagram.com"><img src="../media/imagenes/instagram.png" alt=""></a>
+    </footer>
+</body>
+
+</html>

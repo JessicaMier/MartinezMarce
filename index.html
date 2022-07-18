@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>locos viajes</title>
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./estilo.css">
+</head>
+
+<body> 
+        <nav>
+            <div>
+            <img src="./media/imagenes/logoAvion.png" alt="logo">
+            </div> 
+            <ul>
+                <li><a href="./index.html">home</a></li>
+                <li><a href="./pages/vuelos.html">vuelos</a></li>
+                <li><a href="./pages/hoteles.html">hoteles</a></li>
+                <li><a href="./galeria.html">galeria</a></li>
+                <li><a href="./pages/contacto.html">contacto</a></li>
+            </ul>
+        </nav>
+    <main>
+        <h1 class="tituloindex">loco por viajar</h1>
+
+        <form class="formulario" action="activar.php">
+            <label for="">Origen</label><br>
+            <br>
+            <input type="text" placeholder="Origen" name="" id=""><br>
+            <br>
+            <label for="">Destino</label><br>
+            <br>
+            <input type="text" placeholder="Destino" name="" id=""><br>
+            <br>
+            <label for="date">fecha</label><br>
+            <br>
+            <input type="fecha" placeholder="fecha inicio" name="" id=""><br> <input type="text"
+                placeholder="Fecha de finalizacion" name="" id="">
+            <br>
+            <h2>Pasajeros</h2>
+            <select name="Personas" id="">
+                <option value="">seleccionar</option>
+                <option value="">Mayores</option>
+            </select>
+            <select name="cantidad" id="">
+                <option value="">0</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+            </select><br>
+            <select name="Personas" id=""><br>
+                <option value="">seleccionar</option>
+                <option value="">menores</option>
+            </select>
+            <select name="cantidad" id="">
+                <option value="">0</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+            </select><br>
+            <input type="reset" value="borrar">
+            <input type="submit" value="enviar">
+        </form>
+    </main>
+    <footer>
+        <p>seguinos en nuestra redes sociales</p>
+        <a href="https://wa.me/5491139359856"><img src="./media/imagenes/whatsapp.png" alt=""></a>
+        <a href="https://facebook.com"><img src="./media/imagenes/facebook.png" alt=""></a>
+        <a href="https://instagram.com"><img src="./media/imagenes/instagram.png" alt=""></a>
+    </footer>
+</body>
+</html>
